@@ -1,0 +1,16 @@
+body{margin:0;background:#faf4f1;font-family:Arial,sans-serif;color:#401d28}
+.app{max-width:850px;margin:auto}
+header{background:#841536;color:white;text-align:center;padding:25px}
+.logo{font-family:Georgia,serif;font-size:44px;font-weight:bold;line-height:.9}
+.logo span{font-size:20px}
+main{padding:20px}
+h1{color:#841536;font-family:Georgia,serif;text-align:center}
+p{text-align:center}
+input,select{width:100%;padding:14px;margin:8px 0;border-radius:10px;border:1px solid #c98a9b;font-size:16px;box-sizing:border-box;background:white}
+.filtros{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:white;margin:15px 0;padding:18px;border-radius:12px;border-left:6px solid #a12a4f}
+.nombre{font-size:20px;font-weight:bold;color:#841536}
+.dato{margin-top:8px}
+#contador{margin:15px 0;font-weight:bold;color:#841536}
+button{width:100%;padding:14px;border:0;border-radius:10px;background:#841536;color:white;font-size:16px}
+@media(max-width:600px){.filtros{grid-template-columns:1fr}.logo{font-size:34px}}
