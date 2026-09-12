@@ -1,0 +1,14 @@
+body{margin:0;background:#faf4f1;font-family:Arial;color:#401d28}
+.contenedor{max-width:850px;margin:auto}
+header{background:#841536;color:white;text-align:center;padding:25px}
+.logo{font-family:Georgia;font-size:44px;font-weight:bold}.logo span{font-size:20px}
+main{padding:20px}h1{text-align:center;color:#841536;font-family:Georgia}
+p{text-align:center}
+input,select{width:100%;padding:14px;margin:7px 0;border-radius:10px;border:1px solid #c98a9b;font-size:16px;box-sizing:border-box}
+.filtros{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.card{background:white;margin:15px 0;padding:18px;border-left:6px solid #a12a4f;border-radius:12px}
+.nombre{font-size:20px;font-weight:bold;color:#841536}
+.dato{margin-top:8px}
+#estado{padding:10px;text-align:center;background:#fff;border-radius:10px;margin:15px 0}
+button{width:100%;padding:14px;background:#841536;color:white;border:0;border-radius:10px}
+@media(max-width:600px){.filtros{grid-template-columns:1fr}.logo{font-size:34px}}

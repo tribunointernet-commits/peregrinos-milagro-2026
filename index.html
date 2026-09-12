@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscador de peregrinos del Milagro 2026</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="contenedor">
+<header>
+<div class="logo">MILAGRO<br><span>para el Mundo</span></div>
+</header>
+
+<main>
+<h1>Buscador de peregrinos 2026</h1>
+<p>Encontrá cuándo llega cada peregrinación a la Catedral Basílica de Salta</p>
+
+<div id="estado">Cargando base de datos...</div>
+
+<input id="buscar" placeholder="🔎 Buscar peregrinación o localidad">
+
+<div class="filtros">
+<select id="modalidad"><option value="">Todas las modalidades</option></select>
+<select id="fecha"><option value="">Todas las fechas</option></select>
+</div>
+
+<div id="contador"></div>
+<div id="resultados"></div>
+<button id="mas">Ver más</button>
+</main>
+</div>
+<script src="buscador.js"></script>
+</body>
+</html>
